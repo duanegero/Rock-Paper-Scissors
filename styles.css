@@ -58,3 +58,28 @@ button {
     color: #666;
     box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
   }
+  .result-container{
+    margin-top: 3px;
+    border: 4px solid black;
+    border-radius: 19px;
+    padding: 14px;
+    background: linear-gradient(90deg, rgb(212, 212, 212), rgb(90, 90, 90));
+    padding-bottom: 20px;
+  }
+  .cpuChoice{
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: x-large;
+    letter-spacing: 4px;
+    color: rgb(185, 1, 1);
+    text-transform: uppercase;
+  }
+  .winner{
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: xx-large;
+    letter-spacing: 5px;
+    color: white;
+  }

@@ -20,15 +20,15 @@ function playGame(){
     
     if(userChoice == cpuChoice){
         console.log('TIE');
-        document.getElementById('cpuChoice').innerHTML = `CPU choice ${cpuChoice}`
+        document.getElementById('cpuChoice').innerHTML = `${cpuChoice}`
         document.getElementById('winner').innerHTML = `TIE`
     }else if((userChoice == 'rock' && cpuChoice == 'scissors') || (userChoice == 'scissors' && cpuChoice == 'paper') || (userChoice == 'paper' && cpuChoice == 'rock')){
         console.log('USER WINS');
-        document.getElementById('cpuChoice').innerHTML = `CPU choice ${cpuChoice}`;
+        document.getElementById('cpuChoice').innerHTML = `${cpuChoice}`
         document.getElementById('winner').innerHTML = `YOU WIN`
     }else{
         console.log('CPU WINS');
-        document.getElementById('cpuChoice').innerHTML = `CPU choice ${cpuChoice}`
+        document.getElementById('cpuChoice').innerHTML = `${cpuChoice}`
         document.getElementById('winner').innerHTML = "CPU";
     }
 }
