@@ -38,3 +38,23 @@ html{
     margin-top: 2em;
     letter-spacing: 3px;
 }
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-family: "Covered By Your Grace", cursive;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 5px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    cursor: pointer;
+    border: 1px solid rgb(90, 90, 90);
+    transition: all 0.3s;
+    box-shadow: 6px 6px 12px black, -6px -6px 12px black;
+    margin-left: 3px;
+  }
+  button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
